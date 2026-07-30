@@ -2,9 +2,8 @@
 
 This is a simple Pokémon HP calculator made in java that runs in your terminal itself.
 ## The formula
-$$
-\text{HP} = \left\lfloor \frac{(2 \times \text{Base} + \text{IV} + \left\lfloor \frac{\text{EV}}{4} \right\rfloor) \times \text{Level}}{100} \right\rfloor + \text{Level} + 10
-$$
+$$\text{HP} = \left\lfloor \frac{(2 \times \text{Base} + \text{IV} + \left\lfloor \frac{\text{EV}}{4} \right\rfloor) \times \text{Level}}{100} \right\rfloor + \text{Level} + 10$$
+
 Here the program uses the formula applied for HP calculation from gen 3 onwards.
 If you want to learn about what these stats mean I recommend you check out [this](https://bulbapedia.bulbagarden.net/wiki/Stat#List_of_stats).
 ## How to run
