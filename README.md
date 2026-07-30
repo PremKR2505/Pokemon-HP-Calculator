@@ -17,7 +17,7 @@ Clone the repo with
 ## Future plans
 
  - Adding the formula used for Gen 1 and 2 HP calculation 
- - Adding a feature to finding Pokémon with similar or same HP stat as the calculated one.
+ - Adding a feature for finding Pokémon with similar or same HP stat as the calculated one.
  - Maybe adding a GUI
  
  ## Conclusion
