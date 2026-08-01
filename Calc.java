@@ -14,10 +14,11 @@ public class Calc{
         System.out.println("Enter level of your Pokemon: ");
         int lvl=scn.nextInt();
         int hpar1=((2*base)+iv+(ev/4))*lvl/100;
-        int hp=hpar1+lvl+10;
+        int hpar1f=(int)Math.floor(hpar1);
+        int hp=hpar1f+lvl+10;
         System.out.println("Your Pokémon's HP is: "+hp);
         System.out.println("***********************************************************************");
-        System.out.println("Thank you for using this program, See ya later hope you have great day!");
+        System.out.println("Thank you for using this program, See ya later! Hope you have great day!");
         System.out.println("***********************************************************************");
         scn.close();
     }
